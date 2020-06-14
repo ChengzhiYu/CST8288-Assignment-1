@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="logic.AccountLogicTest" time="157.425" tests="15" errors="15" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="netbeans.deploy" value="true"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\yuche\Documents\NetBeansProjects\mavenproject5\RedditReader-Skeleton\target\test-classes;C:\Users\yuche\Documents\NetBeansProjects\mavenproject5\RedditReader-Skeleton\target\classes;C:\Users\yuche\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\yuche\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\yuche\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\yuche\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\Users\yuche\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\yuche\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\yuche\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.2\junit-jupiter-params-5.6.2.jar;C:\Users\yuche\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.core\2.7.7\org.eclipse.persistence.core-2.7.7.jar;C:\Users\yuche\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.asm\2.7.7\org.eclipse.persistence.asm-2.7.7.jar;C:\Users\yuche\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.antlr\2.7.7\org.eclipse.persistence.antlr-2.7.7.jar;C:\Users\yuche\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa\2.7.7\org.eclipse.persistence.jpa-2.7.7.jar;C:\Users\yuche\.m2\repository\org\eclipse\persistence\jakarta.persistence\2.2.3\jakarta.persistence-2.2.3.jar;C:\Users\yuche\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.jpql\2.7.7\org.eclipse.persistence.jpa.jpql-2.7.7.jar;C:\Users\yuche\.m2\repository\org\eclipse\persistence\javax.persistence\2.2.1\javax.persistence-2.2.1.jar;C:\Users\yuche\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.modelgen.processor\2.7.7\org.eclipse.persistence.jpa.modelgen.processor-2.7.7.jar;C:\Users\yuche\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\yuche\.m2\repository\javax\servlet\jsp\javax.servlet.jsp-api\2.3.3\javax.servlet.jsp-api-2.3.3.jar;C:\Users\yuche\.m2\repository\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar;C:\Users\yuche\.m2\repository\javax\javaee-api\8.0.1\javaee-api-8.0.1.jar;C:\Users\yuche\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar;C:\Users\yuche\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\yuche\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.27\tomcat-embed-core-9.0.27.jar;C:\Users\yuche\.m2\repository\org\apache\tomcat\tomcat-annotations-api\9.0.27\tomcat-annotations-api-9.0.27.jar;C:\Users\yuche\.m2\repository\org\apache\tomcat\embed\tomcat-embed-jasper\9.0.27\tomcat-embed-jasper-9.0.27.jar;C:\Users\yuche\.m2\repository\org\eclipse\jdt\ecj\3.18.0\ecj-3.18.0.jar;C:\Users\yuche\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.27\tomcat-embed-el-9.0.27.jar;C:\Users\yuche\.m2\repository\org\apache\tomcat\tomcat-jdbc\9.0.27\tomcat-jdbc-9.0.27.jar;C:\Users\yuche\.m2\repository\org\apache\tomcat\tomcat-juli\9.0.27\tomcat-juli-9.0.27.jar;C:\Users\yuche\.m2\repository\org\hibernate\hibernate-core\5.4.15.Final\hibernate-core-5.4.15.Final.jar;C:\Users\yuche\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;C:\Users\yuche\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\yuche\.m2\repository\org\javassist\javassist\3.24.0-GA\javassist-3.24.0-GA.jar;C:\Users\yuche\.m2\repository\net\bytebuddy\byte-buddy\1.10.10\byte-buddy-1.10.10.jar;C:\Users\yuche\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\yuche\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\yuche\.m2\repository\org\jboss\jandex\2.1.3.Final\jandex-2.1.3.Final.jar;C:\Users\yuche\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\yuche\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\yuche\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\yuche\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.0.Final\hibernate-commons-annotations-5.1.0.Final.jar;C:\Users\yuche\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\yuche\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\yuche\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\yuche\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\yuche\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\yuche\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\yuche\.m2\repository\org\hibernate\hibernate-entitymanager\5.4.15.Final\hibernate-entitymanager-5.4.15.Final.jar;C:\Users\yuche\.m2\repository\mysql\mysql-connector-java\8.0.20\mysql-connector-java-8.0.20.jar;C:\Users\yuche\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\2.22.2\maven-surefire-plugin-2.22.2.jar;C:\Users\yuche\.m2\repository\org\apache\maven\surefire\maven-surefire-common\2.22.2\maven-surefire-common-2.22.2.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-plugin-api\2.2.1\maven-plugin-api-2.2.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\plugin-tools\maven-plugin-annotations\3.5.2\maven-plugin-annotations-3.5.2.jar;C:\Users\yuche\.m2\repository\org\apache\maven\surefire\surefire-api\2.22.2\surefire-api-2.22.2.jar;C:\Users\yuche\.m2\repository\org\apache\maven\surefire\surefire-logger-api\2.22.2\surefire-logger-api-2.22.2.jar;C:\Users\yuche\.m2\repository\org\apache\maven\surefire\surefire-booter\2.22.2\surefire-booter-2.22.2.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-artifact\2.2.1\maven-artifact-2.2.1.jar;C:\Users\yuche\.m2\repository\org\codehaus\plexus\plexus-utils\1.5.15\plexus-utils-1.5.15.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-plugin-descriptor\2.2.1\maven-plugin-descriptor-2.2.1.jar;C:\Users\yuche\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;C:\Users\yuche\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-project\2.2.1\maven-project-2.2.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-settings\2.2.1\maven-settings-2.2.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-profile\2.2.1\maven-profile-2.2.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-artifact-manager\2.2.1\maven-artifact-manager-2.2.1.jar;C:\Users\yuche\.m2\repository\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-plugin-registry\2.2.1\maven-plugin-registry-2.2.1.jar;C:\Users\yuche\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.11\plexus-interpolation-1.11.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-model\2.2.1\maven-model-2.2.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-core\2.2.1\maven-core-2.2.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-plugin-parameter-documenter\2.2.1\maven-plugin-parameter-documenter-2.2.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\wagon\wagon-http\1.0-beta-6\wagon-http-1.0-beta-6.jar;C:\Users\yuche\.m2\repository\org\apache\maven\wagon\wagon-http-shared\1.0-beta-6\wagon-http-shared-1.0-beta-6.jar;C:\Users\yuche\.m2\repository\nekohtml\xercesMinimal\1.9.6.2\xercesMinimal-1.9.6.2.jar;C:\Users\yuche\.m2\repository\nekohtml\nekohtml\1.9.6.2\nekohtml-1.9.6.2.jar;C:\Users\yuche\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\yuche\.m2\repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar;C:\Users\yuche\.m2\repository\org\apache\maven\wagon\wagon-webdav-jackrabbit\1.0-beta-6\wagon-webdav-jackrabbit-1.0-beta-6.jar;C:\Users\yuche\.m2\repository\org\apache\jackrabbit\jackrabbit-webdav\1.5.0\jackrabbit-webdav-1.5.0.jar;C:\Users\yuche\.m2\repository\org\apache\jackrabbit\jackrabbit-jcr-commons\1.5.0\jackrabbit-jcr-commons-1.5.0.jar;C:\Users\yuche\.m2\repository\org\slf4j\slf4j-nop\1.5.3\slf4j-nop-1.5.3.jar;C:\Users\yuche\.m2\repository\org\slf4j\slf4j-jdk14\1.5.6\slf4j-jdk14-1.5.6.jar;C:\Users\yuche\.m2\repository\org\slf4j\slf4j-api\1.5.6\slf4j-api-1.5.6.jar;C:\Users\yuche\.m2\repository\org\slf4j\jcl-over-slf4j\1.5.6\jcl-over-slf4j-1.5.6.jar;C:\Users\yuche\.m2\repository\org\apache\maven\reporting\maven-reporting-api\2.2.1\maven-reporting-api-2.2.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.1\doxia-logging-api-1.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0-beta-6\wagon-provider-api-1.0-beta-6.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-repository-metadata\2.2.1\maven-repository-metadata-2.2.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-error-diagnostics\2.2.1\maven-error-diagnostics-2.2.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-monitor\2.2.1\maven-monitor-2.2.1.jar;C:\Users\yuche\.m2\repository\classworlds\classworlds\1.1\classworlds-1.1.jar;C:\Users\yuche\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\yuche\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-toolchain\2.2.1\maven-toolchain-2.2.1.jar;C:\Users\yuche\.m2\repository\org\codehaus\plexus\plexus-java\0.9.10\plexus-java-0.9.10.jar;C:\Users\yuche\.m2\repository\org\ow2\asm\asm\6.2\asm-6.2.jar;C:\Users\yuche\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M8\qdox-2.0-M8.jar;C:\Users\yuche\.m2\repository\net\dean\jraw\JRAW\1.1.0\JRAW-1.1.0.jar;C:\Users\yuche\.m2\repository\com\squareup\moshi\moshi\1.6.0\moshi-1.6.0.jar;C:\Users\yuche\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\yuche\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.2.41\kotlin-stdlib-1.2.41.jar;C:\Users\yuche\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\yuche\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\yuche\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\yuche\AppData\Local\Temp\surefire851988445534286685\surefirebooter1683667691670814645.jar C:\Users\yuche\AppData\Local\Temp\surefire851988445534286685 2020-06-06T13-34-16_416-jvmRun1 surefire8174547794218148607tmp surefire_08684367622489536696tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\yuche\Documents\NetBeansProjects\mavenproject5\RedditReader-Skeleton\target\test-classes;C:\Users\yuche\Documents\NetBeansProjects\mavenproject5\RedditReader-Skeleton\target\classes;C:\Users\yuche\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.2\junit-jupiter-api-5.6.2.jar;C:\Users\yuche\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\yuche\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\yuche\.m2\repository\org\junit\platform\junit-platform-commons\1.6.2\junit-platform-commons-1.6.2.jar;C:\Users\yuche\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.2\junit-jupiter-engine-5.6.2.jar;C:\Users\yuche\.m2\repository\org\junit\platform\junit-platform-engine\1.6.2\junit-platform-engine-1.6.2.jar;C:\Users\yuche\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.2\junit-jupiter-params-5.6.2.jar;C:\Users\yuche\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.core\2.7.7\org.eclipse.persistence.core-2.7.7.jar;C:\Users\yuche\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.asm\2.7.7\org.eclipse.persistence.asm-2.7.7.jar;C:\Users\yuche\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.antlr\2.7.7\org.eclipse.persistence.antlr-2.7.7.jar;C:\Users\yuche\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa\2.7.7\org.eclipse.persistence.jpa-2.7.7.jar;C:\Users\yuche\.m2\repository\org\eclipse\persistence\jakarta.persistence\2.2.3\jakarta.persistence-2.2.3.jar;C:\Users\yuche\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.jpql\2.7.7\org.eclipse.persistence.jpa.jpql-2.7.7.jar;C:\Users\yuche\.m2\repository\org\eclipse\persistence\javax.persistence\2.2.1\javax.persistence-2.2.1.jar;C:\Users\yuche\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.modelgen.processor\2.7.7\org.eclipse.persistence.jpa.modelgen.processor-2.7.7.jar;C:\Users\yuche\.m2\repository\javax\servlet\jstl\1.2\jstl-1.2.jar;C:\Users\yuche\.m2\repository\javax\servlet\jsp\javax.servlet.jsp-api\2.3.3\javax.servlet.jsp-api-2.3.3.jar;C:\Users\yuche\.m2\repository\javax\servlet\javax.servlet-api\4.0.1\javax.servlet-api-4.0.1.jar;C:\Users\yuche\.m2\repository\javax\javaee-api\8.0.1\javaee-api-8.0.1.jar;C:\Users\yuche\.m2\repository\com\sun\mail\javax.mail\1.6.2\javax.mail-1.6.2.jar;C:\Users\yuche\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\yuche\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.27\tomcat-embed-core-9.0.27.jar;C:\Users\yuche\.m2\repository\org\apache\tomcat\tomcat-annotations-api\9.0.27\tomcat-annotations-api-9.0.27.jar;C:\Users\yuche\.m2\repository\org\apache\tomcat\embed\tomcat-embed-jasper\9.0.27\tomcat-embed-jasper-9.0.27.jar;C:\Users\yuche\.m2\repository\org\eclipse\jdt\ecj\3.18.0\ecj-3.18.0.jar;C:\Users\yuche\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\9.0.27\tomcat-embed-el-9.0.27.jar;C:\Users\yuche\.m2\repository\org\apache\tomcat\tomcat-jdbc\9.0.27\tomcat-jdbc-9.0.27.jar;C:\Users\yuche\.m2\repository\org\apache\tomcat\tomcat-juli\9.0.27\tomcat-juli-9.0.27.jar;C:\Users\yuche\.m2\repository\org\hibernate\hibernate-core\5.4.15.Final\hibernate-core-5.4.15.Final.jar;C:\Users\yuche\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;C:\Users\yuche\.m2\repository\javax\persistence\javax.persistence-api\2.2\javax.persistence-api-2.2.jar;C:\Users\yuche\.m2\repository\org\javassist\javassist\3.24.0-GA\javassist-3.24.0-GA.jar;C:\Users\yuche\.m2\repository\net\bytebuddy\byte-buddy\1.10.10\byte-buddy-1.10.10.jar;C:\Users\yuche\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\yuche\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.1.1.Final\jboss-transaction-api_1.2_spec-1.1.1.Final.jar;C:\Users\yuche\.m2\repository\org\jboss\jandex\2.1.3.Final\jandex-2.1.3.Final.jar;C:\Users\yuche\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar;C:\Users\yuche\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\yuche\.m2\repository\org\dom4j\dom4j\2.1.3\dom4j-2.1.3.jar;C:\Users\yuche\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.1.0.Final\hibernate-commons-annotations-5.1.0.Final.jar;C:\Users\yuche\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\yuche\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar;C:\Users\yuche\.m2\repository\org\glassfish\jaxb\txw2\2.3.1\txw2-2.3.1.jar;C:\Users\yuche\.m2\repository\com\sun\istack\istack-commons-runtime\3.0.7\istack-commons-runtime-3.0.7.jar;C:\Users\yuche\.m2\repository\org\jvnet\staxex\stax-ex\1.8\stax-ex-1.8.jar;C:\Users\yuche\.m2\repository\com\sun\xml\fastinfoset\FastInfoset\1.2.15\FastInfoset-1.2.15.jar;C:\Users\yuche\.m2\repository\org\hibernate\hibernate-entitymanager\5.4.15.Final\hibernate-entitymanager-5.4.15.Final.jar;C:\Users\yuche\.m2\repository\mysql\mysql-connector-java\8.0.20\mysql-connector-java-8.0.20.jar;C:\Users\yuche\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\2.22.2\maven-surefire-plugin-2.22.2.jar;C:\Users\yuche\.m2\repository\org\apache\maven\surefire\maven-surefire-common\2.22.2\maven-surefire-common-2.22.2.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-plugin-api\2.2.1\maven-plugin-api-2.2.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\plugin-tools\maven-plugin-annotations\3.5.2\maven-plugin-annotations-3.5.2.jar;C:\Users\yuche\.m2\repository\org\apache\maven\surefire\surefire-api\2.22.2\surefire-api-2.22.2.jar;C:\Users\yuche\.m2\repository\org\apache\maven\surefire\surefire-logger-api\2.22.2\surefire-logger-api-2.22.2.jar;C:\Users\yuche\.m2\repository\org\apache\maven\surefire\surefire-booter\2.22.2\surefire-booter-2.22.2.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-artifact\2.2.1\maven-artifact-2.2.1.jar;C:\Users\yuche\.m2\repository\org\codehaus\plexus\plexus-utils\1.5.15\plexus-utils-1.5.15.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-plugin-descriptor\2.2.1\maven-plugin-descriptor-2.2.1.jar;C:\Users\yuche\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;C:\Users\yuche\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-project\2.2.1\maven-project-2.2.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-settings\2.2.1\maven-settings-2.2.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-profile\2.2.1\maven-profile-2.2.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-artifact-manager\2.2.1\maven-artifact-manager-2.2.1.jar;C:\Users\yuche\.m2\repository\backport-util-concurrent\backport-util-concurrent\3.1\backport-util-concurrent-3.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-plugin-registry\2.2.1\maven-plugin-registry-2.2.1.jar;C:\Users\yuche\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.11\plexus-interpolation-1.11.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-model\2.2.1\maven-model-2.2.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-core\2.2.1\maven-core-2.2.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-plugin-parameter-documenter\2.2.1\maven-plugin-parameter-documenter-2.2.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\wagon\wagon-http\1.0-beta-6\wagon-http-1.0-beta-6.jar;C:\Users\yuche\.m2\repository\org\apache\maven\wagon\wagon-http-shared\1.0-beta-6\wagon-http-shared-1.0-beta-6.jar;C:\Users\yuche\.m2\repository\nekohtml\xercesMinimal\1.9.6.2\xercesMinimal-1.9.6.2.jar;C:\Users\yuche\.m2\repository\nekohtml\nekohtml\1.9.6.2\nekohtml-1.9.6.2.jar;C:\Users\yuche\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\yuche\.m2\repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar;C:\Users\yuche\.m2\repository\org\apache\maven\wagon\wagon-webdav-jackrabbit\1.0-beta-6\wagon-webdav-jackrabbit-1.0-beta-6.jar;C:\Users\yuche\.m2\repository\org\apache\jackrabbit\jackrabbit-webdav\1.5.0\jackrabbit-webdav-1.5.0.jar;C:\Users\yuche\.m2\repository\org\apache\jackrabbit\jackrabbit-jcr-commons\1.5.0\jackrabbit-jcr-commons-1.5.0.jar;C:\Users\yuche\.m2\repository\org\slf4j\slf4j-nop\1.5.3\slf4j-nop-1.5.3.jar;C:\Users\yuche\.m2\repository\org\slf4j\slf4j-jdk14\1.5.6\slf4j-jdk14-1.5.6.jar;C:\Users\yuche\.m2\repository\org\slf4j\slf4j-api\1.5.6\slf4j-api-1.5.6.jar;C:\Users\yuche\.m2\repository\org\slf4j\jcl-over-slf4j\1.5.6\jcl-over-slf4j-1.5.6.jar;C:\Users\yuche\.m2\repository\org\apache\maven\reporting\maven-reporting-api\2.2.1\maven-reporting-api-2.2.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.1\doxia-logging-api-1.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0-beta-6\wagon-provider-api-1.0-beta-6.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-repository-metadata\2.2.1\maven-repository-metadata-2.2.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-error-diagnostics\2.2.1\maven-error-diagnostics-2.2.1.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-monitor\2.2.1\maven-monitor-2.2.1.jar;C:\Users\yuche\.m2\repository\classworlds\classworlds\1.1\classworlds-1.1.jar;C:\Users\yuche\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\yuche\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\yuche\.m2\repository\org\apache\maven\maven-toolchain\2.2.1\maven-toolchain-2.2.1.jar;C:\Users\yuche\.m2\repository\org\codehaus\plexus\plexus-java\0.9.10\plexus-java-0.9.10.jar;C:\Users\yuche\.m2\repository\org\ow2\asm\asm\6.2\asm-6.2.jar;C:\Users\yuche\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M8\qdox-2.0-M8.jar;C:\Users\yuche\.m2\repository\net\dean\jraw\JRAW\1.1.0\JRAW-1.1.0.jar;C:\Users\yuche\.m2\repository\com\squareup\moshi\moshi\1.6.0\moshi-1.6.0.jar;C:\Users\yuche\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\yuche\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.2.41\kotlin-stdlib-1.2.41.jar;C:\Users\yuche\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\yuche\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\yuche\.m2\repository\org\jsoup\jsoup\1.13.1\jsoup-1.13.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\yuche"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="basedir" value="C:\Users\yuche\Documents\NetBeansProjects\mavenproject5\RedditReader-Skeleton"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\yuche\AppData\Local\Temp\surefire851988445534286685\surefirebooter1683667691670814645.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="user.name" value="yuche"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\Users\yuche\incubating-netbeans-11.0-bin\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\yuche\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\yuche\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="user.dir" value="C:\Users\yuche\Documents\NetBeansProjects\mavenproject5\RedditReader-Skeleton"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\app\yuche\product\11.2.0\dbhome_1\bin;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Brackets\command;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\yuche\Downloads\python\Scripts\;C:\Users\yuche\Downloads\python\;C:\Users\yuche\AppData\Local\Microsoft\WindowsApps;C:\Users\yuche\Downloads\python\PyCharm Community Edition 2018.3.1\bin;;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testCreateEntity" classname="logic.AccountLogicTest" time="0.174">
+    <error message="org.hibernate.exception.ConstraintViolationException: could not execute statement" type="javax.persistence.PersistenceException">javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+</error>
+    <system-out><![CDATA[Hibernate: 
+    /* insert entity.Account
+        */ insert 
+        into
+            redditreader.account
+            (nickname, password, username) 
+        values
+            (?, ?, ?)
+]]></system-out>
+    <system-err><![CDATA[Jun 06, 2020 1:34:18 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+Jun 06, 2020 1:34:18 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.27]
+Jun 06, 2020 1:34:18 PM org.apache.catalina.startup.ContextConfig getDefaultWebXmlFragment
+INFO: No global web.xml found
+Jun 06, 2020 1:34:21 PM org.apache.jasper.servlet.TldScanner scanJars
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Jun 06, 2020 1:34:21 PM common.ServletListener contextInitialized
+INFO: Initializing EMF
+Jun 06, 2020 1:34:21 PM org.hibernate.jpa.internal.util.LogHelper logPersistenceUnitInformation
+INFO: HHH000204: Processing PersistenceUnitInfo [name: JPA-Tomcat-RedditReader]
+Jun 06, 2020 1:34:21 PM org.hibernate.Version logVersion
+INFO: HHH000412: Hibernate ORM core version 5.4.15.Final
+Jun 06, 2020 1:34:21 PM org.hibernate.annotations.common.reflection.java.JavaReflectionManager <clinit>
+INFO: HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+Jun 06, 2020 1:34:21 PM org.hibernate.dialect.Dialect <init>
+INFO: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+Jun 06, 2020 1:34:22 PM org.hibernate.resource.beans.spi.ManagedBeanRegistryInitiator resolveBeanContainer
+INFO: HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+Jun 06, 2020 1:34:22 PM org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator initiateService
+INFO: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Jun 06, 2020 1:34:23 PM common.ServletListener contextInitialized
+INFO: EMF initialized
+Jun 06, 2020 1:34:23 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 1062, SQLState: 23000
+Jun 06, 2020 1:34:23 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+]]></system-err>
+  </testcase>
+  <testcase name="testGetAccountWithDisplayName" classname="logic.AccountLogicTest" time="21.747">
+    <error message="org.hibernate.exception.ConstraintViolationException: could not execute statement" type="javax.persistence.PersistenceException">javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+</error>
+    <system-out><![CDATA[Hibernate: 
+    /* insert entity.Account
+        */ insert 
+        into
+            redditreader.account
+            (nickname, password, username) 
+        values
+            (?, ?, ?)
+]]></system-out>
+    <system-err><![CDATA[Jun 06, 2020 1:34:45 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 1062, SQLState: 23000
+Jun 06, 2020 1:34:45 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+]]></system-err>
+  </testcase>
+  <testcase name="testCreateEntityNullAndEmptyValues" classname="logic.AccountLogicTest" time="0.017">
+    <error message="org.hibernate.exception.ConstraintViolationException: could not execute statement" type="javax.persistence.PersistenceException">javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+</error>
+    <system-out><![CDATA[Hibernate: 
+    /* insert entity.Account
+        */ insert 
+        into
+            redditreader.account
+            (nickname, password, username) 
+        values
+            (?, ?, ?)
+]]></system-out>
+    <system-err><![CDATA[Jun 06, 2020 1:34:45 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 1062, SQLState: 23000
+Jun 06, 2020 1:34:45 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+]]></system-err>
+  </testcase>
+  <testcase name="testGetAccountWith" classname="logic.AccountLogicTest" time="24.98">
+    <error message="org.hibernate.exception.ConstraintViolationException: could not execute statement" type="javax.persistence.PersistenceException">javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+</error>
+    <system-out><![CDATA[Hibernate: 
+    /* insert entity.Account
+        */ insert 
+        into
+            redditreader.account
+            (nickname, password, username) 
+        values
+            (?, ?, ?)
+]]></system-out>
+    <system-err><![CDATA[Jun 06, 2020 1:35:10 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 1062, SQLState: 23000
+Jun 06, 2020 1:35:10 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+]]></system-err>
+  </testcase>
+  <testcase name="testExtractDataAsList" classname="logic.AccountLogicTest" time="0.023">
+    <error message="org.hibernate.exception.ConstraintViolationException: could not execute statement" type="javax.persistence.PersistenceException">javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+</error>
+    <system-out><![CDATA[Hibernate: 
+    /* insert entity.Account
+        */ insert 
+        into
+            redditreader.account
+            (nickname, password, username) 
+        values
+            (?, ?, ?)
+]]></system-out>
+    <system-err><![CDATA[Jun 06, 2020 1:35:10 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 1062, SQLState: 23000
+Jun 06, 2020 1:35:10 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+]]></system-err>
+  </testcase>
+  <testcase name="testGetAccountWIthUser" classname="logic.AccountLogicTest" time="19.995">
+    <error message="org.hibernate.exception.ConstraintViolationException: could not execute statement" type="javax.persistence.PersistenceException">javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+</error>
+    <system-out><![CDATA[Hibernate: 
+    /* insert entity.Account
+        */ insert 
+        into
+            redditreader.account
+            (nickname, password, username) 
+        values
+            (?, ?, ?)
+]]></system-out>
+    <system-err><![CDATA[Jun 06, 2020 1:35:30 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 1062, SQLState: 23000
+Jun 06, 2020 1:35:30 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+]]></system-err>
+  </testcase>
+  <testcase name="testGetAccountsWithPassword" classname="logic.AccountLogicTest" time="5.019">
+    <error message="org.hibernate.exception.ConstraintViolationException: could not execute statement" type="javax.persistence.PersistenceException">javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+</error>
+    <system-out><![CDATA[Hibernate: 
+    /* insert entity.Account
+        */ insert 
+        into
+            redditreader.account
+            (nickname, password, username) 
+        values
+            (?, ?, ?)
+]]></system-out>
+    <system-err><![CDATA[Jun 06, 2020 1:35:35 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 1062, SQLState: 23000
+Jun 06, 2020 1:35:35 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+]]></system-err>
+  </testcase>
+  <testcase name="testCreateEntityAndAdd" classname="logic.AccountLogicTest" time="15.016">
+    <error message="org.hibernate.exception.ConstraintViolationException: could not execute statement" type="javax.persistence.PersistenceException">javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+</error>
+    <system-out><![CDATA[Hibernate: 
+    /* insert entity.Account
+        */ insert 
+        into
+            redditreader.account
+            (nickname, password, username) 
+        values
+            (?, ?, ?)
+]]></system-out>
+    <system-err><![CDATA[Jun 06, 2020 1:35:50 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 1062, SQLState: 23000
+Jun 06, 2020 1:35:50 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+]]></system-err>
+  </testcase>
+  <testcase name="testCreateEntityBadLengthValues" classname="logic.AccountLogicTest" time="4.998">
+    <error message="org.hibernate.exception.ConstraintViolationException: could not execute statement" type="javax.persistence.PersistenceException">javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+</error>
+    <system-out><![CDATA[Hibernate: 
+    /* insert entity.Account
+        */ insert 
+        into
+            redditreader.account
+            (nickname, password, username) 
+        values
+            (?, ?, ?)
+]]></system-out>
+    <system-err><![CDATA[Jun 06, 2020 1:35:55 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 1062, SQLState: 23000
+Jun 06, 2020 1:35:55 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+]]></system-err>
+  </testcase>
+  <testcase name="testCreateEntityEdgeValues" classname="logic.AccountLogicTest" time="15.011">
+    <error message="org.hibernate.exception.ConstraintViolationException: could not execute statement" type="javax.persistence.PersistenceException">javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+</error>
+    <system-out><![CDATA[Hibernate: 
+    /* insert entity.Account
+        */ insert 
+        into
+            redditreader.account
+            (nickname, password, username) 
+        values
+            (?, ?, ?)
+]]></system-out>
+    <system-err><![CDATA[Jun 06, 2020 1:36:10 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 1062, SQLState: 23000
+Jun 06, 2020 1:36:10 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+]]></system-err>
+  </testcase>
+  <testcase name="testGetAll" classname="logic.AccountLogicTest" time="5.009">
+    <error message="org.hibernate.exception.ConstraintViolationException: could not execute statement" type="javax.persistence.PersistenceException">javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+</error>
+    <system-out><![CDATA[Hibernate: 
+    /* insert entity.Account
+        */ insert 
+        into
+            redditreader.account
+            (nickname, password, username) 
+        values
+            (?, ?, ?)
+]]></system-out>
+    <system-err><![CDATA[Jun 06, 2020 1:36:15 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 1062, SQLState: 23000
+Jun 06, 2020 1:36:15 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+]]></system-err>
+  </testcase>
+  <testcase name="testGetColumnCodes" classname="logic.AccountLogicTest" time="15.01">
+    <error message="org.hibernate.exception.ConstraintViolationException: could not execute statement" type="javax.persistence.PersistenceException">javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+</error>
+    <system-out><![CDATA[Hibernate: 
+    /* insert entity.Account
+        */ insert 
+        into
+            redditreader.account
+            (nickname, password, username) 
+        values
+            (?, ?, ?)
+]]></system-out>
+    <system-err><![CDATA[Jun 06, 2020 1:36:30 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 1062, SQLState: 23000
+Jun 06, 2020 1:36:30 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+]]></system-err>
+  </testcase>
+  <testcase name="testGetColumnNames" classname="logic.AccountLogicTest" time="5">
+    <error message="org.hibernate.exception.ConstraintViolationException: could not execute statement" type="javax.persistence.PersistenceException">javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+</error>
+    <system-out><![CDATA[Hibernate: 
+    /* insert entity.Account
+        */ insert 
+        into
+            redditreader.account
+            (nickname, password, username) 
+        values
+            (?, ?, ?)
+]]></system-out>
+    <system-err><![CDATA[Jun 06, 2020 1:36:35 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 1062, SQLState: 23000
+Jun 06, 2020 1:36:35 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+]]></system-err>
+  </testcase>
+  <testcase name="testGetWithId" classname="logic.AccountLogicTest" time="15.02">
+    <error message="org.hibernate.exception.ConstraintViolationException: could not execute statement" type="javax.persistence.PersistenceException">javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+</error>
+    <system-out><![CDATA[Hibernate: 
+    /* insert entity.Account
+        */ insert 
+        into
+            redditreader.account
+            (nickname, password, username) 
+        values
+            (?, ?, ?)
+]]></system-out>
+    <system-err><![CDATA[Jun 06, 2020 1:36:50 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 1062, SQLState: 23000
+Jun 06, 2020 1:36:50 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+]]></system-err>
+  </testcase>
+  <testcase name="testSearch" classname="logic.AccountLogicTest" time="4.992">
+    <error message="org.hibernate.exception.ConstraintViolationException: could not execute statement" type="javax.persistence.PersistenceException">javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+</error>
+    <system-out><![CDATA[Hibernate: 
+    /* insert entity.Account
+        */ insert 
+        into
+            redditreader.account
+            (nickname, password, username) 
+        values
+            (?, ?, ?)
+]]></system-out>
+    <system-err><![CDATA[Jun 06, 2020 1:36:55 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+WARN: SQL Error: 1062, SQLState: 23000
+Jun 06, 2020 1:36:55 PM org.hibernate.engine.jdbc.spi.SqlExceptionHelper logExceptions
+ERROR: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,124 @@
+-------------------------------------------------------------------------------
+Test set: logic.AccountLogicTest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 15, Skipped: 0, Time elapsed: 157.425 s <<< FAILURE! - in logic.AccountLogicTest
+testCreateEntity  Time elapsed: 0.174 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+
+testGetAccountWithDisplayName  Time elapsed: 21.747 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+
+testCreateEntityNullAndEmptyValues  Time elapsed: 0.017 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+
+testGetAccountWith  Time elapsed: 24.98 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+
+testExtractDataAsList  Time elapsed: 0.023 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+
+testGetAccountWIthUser  Time elapsed: 19.995 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+
+testGetAccountsWithPassword  Time elapsed: 5.019 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+
+testCreateEntityAndAdd  Time elapsed: 15.016 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+
+testCreateEntityBadLengthValues  Time elapsed: 4.998 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+
+testCreateEntityEdgeValues  Time elapsed: 15.011 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+
+testGetAll  Time elapsed: 5.009 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+
+testGetColumnCodes  Time elapsed: 15.01 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+
+testGetColumnNames  Time elapsed: 5 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+
+testGetWithId  Time elapsed: 15.02 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+
+testSearch  Time elapsed: 4.992 s  <<< ERROR!
+javax.persistence.PersistenceException: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: org.hibernate.exception.ConstraintViolationException: could not execute statement
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry 'junit' for key 'account.user_UNIQUE'
+	at logic.AccountLogicTest.setUp(AccountLogicTest.java:64)
+
